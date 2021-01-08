@@ -1,0 +1,525 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1.h2,h3,h4,h5,h6,p{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	
+	text-decoration: none;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.container{
+	max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.section-padding{
+	padding: 30px 0;
+}
+
+.section-padding-l{
+	padding: 30px 0 10px 0;
+}
+
+@font-face{
+	src: url(../fonts/montserrat/Montserrat-Regular.otf);
+	font-family: Montserrat-Regular;
+}
+
+@font-face{
+	src: url(../fonts/montserrat/Montserrat-Bold.otf);
+	font-family: Montserrat-Bold;
+}
+
+@font-face{
+	src: url(../fonts/yeseva/YesevaOne-Regular_v2.otf);
+	font-family:YesevaOne-Regular;
+}
+
+
+@font-face{
+	src: url(../fonts/montserrat/Montserrat-Medium.otf);
+	font-family: Montserrat-Medium.otf;
+}
+
+/* =============================================
+			  Start Heading Section                 
+================================================= */
+.header-section{
+	width: 100%;
+	padding: 0px 0px 150px 0px;
+	background: url(../images/header-Bg.png) top no-repeat;
+	background-size: cover;
+}
+.header-section .header{
+	width: 100%;
+}
+.header .header-top{
+	width: 100%;
+}
+
+.header .header-top .logo{
+	width: 20%;
+	float: left;
+}
+.header .header-top .logo img{
+	width: 50%;
+	margin-top: 10px;
+}
+.header .header-top .main-menu{
+	width: 70%;
+	float: left;
+}
+.header .header-top .main-menu ul{
+	text-align: right;
+	margin-top: 20px;
+}
+.header .header-top .main-menu ul li {
+	display: inline;
+}
+.header .header-top .main-menu ul li a {
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 10px 20px;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.header .header-top .main-menu ul li a:hover{
+	background: #202022;
+}
+
+.header .header-top .header-btn{
+	width: 10%;
+	float: left;
+	text-align: right;
+	margin-top: 30px;
+}
+
+
+.header .header-top .header-btn i{
+	font-size: 20px;
+	color: #e4b62d;
+	padding: 0px 6px;
+}
+
+.header .header-top .header-btn i:hover{
+	color: #fff;
+}
+/* header-bottom */
+.header-bottom{
+	width: 100%;
+	text-align: center;
+}
+
+.header-bottom h2{
+	font-size: 50px;
+	line-height: 60px;
+	font-weight: 600;
+	letter-spacing: 3;
+	color: #fff;
+	padding-top: 200px;
+	font-family:YesevaOne-Regular;
+}
+.header-bottom img{
+	width: 15%;
+	margin-top: 20px;
+	margin-left: -1140px;
+}
+.header-bottom .header-bottom-left{
+	width: 50%;
+	float: left;
+	margin-top: 100px;
+	text-align: right;
+}
+
+.header-bottom .header-bottom-left a{
+	padding: 15px 30px;
+	color: #fff;
+	background: #202022;
+	font-size: 16px;
+	font-family: 'Lato';
+	margin-right: 15px;
+	border: 2px solid transparent;
+}
+
+.header-bottom .header-bottom-left a:hover{
+	background: #c2b884;
+	border: 2px solid #fff;
+	color: #202022;
+}
+.header-bottom .header-bottom-right{
+	width: 50%;
+	float: left;
+	margin-top: 100px;
+	text-align: left;
+}
+
+.header-bottom .header-bottom-right a{
+	padding: 15px 30px;
+	color: #fff;
+	background: #202022;
+	font-size: 16px;
+	font-family: 'Lato';
+	margin-left: 15px;
+	border: 2px solid transparent;
+}
+
+.header-bottom .header-bottom-right a:hover{
+	background: #c2b884;
+	border: 2px solid #fff;
+	color: #202022;
+}
+/* =============================================
+			  Start Heading Section                 
+================================================= */
+
+/* =============================================
+			  Start dish-food Section                 
+================================================= */
+.dish-food-section{
+	width: 100%;
+	background: url(../images/dish-bg.png) top no-repeat;
+	background-size: cover;
+}
+
+.dish-food-section .dish-food {
+	width: 100%;
+}
+
+.dish-food .dish-food-left{
+	width: 50%;
+	float: left;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.dish-food .dish-food-left h5{
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 500;
+	color: #cc9900;
+	font-family:YesevaOne-Regular;
+	margin-top: 80px;
+}
+.dish-food .dish-food-left img{
+	width: 40%;
+	margin-top: 20px;
+}
+
+.dish-food .dish-food-left p{
+	color: #202022;
+	font-size: 16px;
+	line-height: 25px;
+	font-family: 'Lato';
+	margin-top: 20px;
+}
+
+.dish-food .dish-food-left .dish-man img{
+	width: 40%;
+	margin-top: 50px;
+}
+.dish-food .dish-food-right{
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+
+.dish-food .dish-food-right img{
+	width: 80%;
+	margin-top: 120px;
+}
+/* =============================================
+			  Start dish-food Section                 
+================================================= */
+
+/* =============================================
+			  Start fine-ingredients Section                 
+================================================= */
+.fine-ingredients-section{
+	width: 100%;
+	background: url(../images/Fine-ingredients-bg.png) top no-repeat;
+	background-size: cover;
+}
+
+.fine-ingredients-section .fine-ingredients {
+	width: 100%;
+}
+
+.fine-ingredients .fine-ingredients-left{
+	width: 50%;
+	float: left;
+	height: 100px;
+	background: transparent;
+}
+
+.fine-ingredients .fine-ingredients-right{
+	width: 50%;
+	float: left;
+}
+
+.fine-ingredients .fine-ingredients-right .ingredients{
+	width: 70%;
+	text-align: center;
+	background: url(../images/ingredients-antaji.png) center no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+}
+
+.fine-ingredients .fine-ingredients-right .ingredients h5{
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 500;
+	color: #fff;
+	font-family:YesevaOne-Regular;
+	margin-top: 80px;
+	text-align: center;
+}
+.fine-ingredients .fine-ingredients-right .ingredients img{
+	width: 40%;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.fine-ingredients .fine-ingredients-right .ingredients p{
+	color: #fff;
+	font-size: 14px;
+	line-height: 22px;
+	font-family: 'Lato';
+	margin-top: 20px;
+	text-align: center;
+}
+.fine-ingredients .fine-ingredients-right .ingredients .ingredients-extra{
+	width: 100%;
+	
+}
+.fine-ingredients .fine-ingredients-right .ingredients .ingredients-extra .ingredients-man{
+	width: 33.33%;
+	float: left;
+	
+	margin-bottom: 70px;
+	
+}
+
+.fine-ingredients .fine-ingredients-right .ingredients .ingredients-extra .ingredients-man img{
+	width: 50%;
+}
+/* =============================================
+			  End fine-ingredients Section                 
+================================================= */
+
+
+/* =============================================
+			  Start review Section                 
+================================================= */
+.review-section{
+	width: 100%;
+	padding: 100px 0px;
+	background: url(../images/review-bg.png) top no-repeat;
+	background-size: cover;
+}
+
+.review{
+	width: 100%;
+	text-align: center;
+}
+.review .review-inner{
+	width: 40%;
+	margin: 0 auto;
+	background: #202022;
+	opacity: 3;
+}
+
+.review .review-inner h5{
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 500;
+	color: #fff;
+	font-family:YesevaOne-Regular;
+	margin-top: 80px;
+	text-align: center;
+	padding-top:50px;
+}
+.review .review-inner img{
+	width: 40%;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.review .review-inner p{
+	color: #fff;
+	font-size: 14px;
+	line-height: 22px;
+	font-family: 'Lato';
+	margin-top: 20px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+/* =============================================
+			  End review Section                 
+================================================= */
+
+/* =============================================
+			  Start just-food Section                 
+================================================= */
+.just-food-section{
+	width: 100%;
+	background: url(../images/dish-bg.png) top no-repeat;
+	background-size: cover;
+}
+
+.just-food-section .just-food {
+	width: 100%;
+}
+
+.just-food .just-food-left{
+	width: 50%;
+	float: left;
+	text-align: right;
+	border-bottom: -8px;
+}
+
+.just-food .just-food-left{
+	margin: 40px 0px;
+}
+.just-food .just-food-right{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+
+.just-food .just-food-right h5{
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 500;
+	color: #cc9900;
+	font-family:YesevaOne-Regular;
+	margin-top: 80px;
+}
+.dish-food .dish-food-left img{
+	width: 40%;
+	margin-top: 20px;
+}
+
+.just-food .just-food-right p{
+	color: #202022;
+	font-size: 16px;
+	line-height: 25px;
+	font-family: 'Lato';
+	margin-top: 20px;
+}
+
+/* btn */
+
+.just-food .just-food-right .food-btn{
+	margin-top: 30px;
+	text-align: center;
+}
+.just-food .just-food-right .food-btn form{
+	width: 100%;
+	text-align: left;
+	margin-left: 30px;
+}
+.just-food .just-food-right .food-btn label{
+	color: #c9a131;
+	font-family: 'Lato';
+}
+
+.just-food .just-food-right .food-btn input{
+	border: 1px solid #202022;
+	padding: 5px 40px 5px 3px;
+	color: #c9a131;
+}
+
+.just-food .just-food-right .food-btn input::placeholder{
+	color: #c9a131;
+}
+.food-extra-btn{
+	margin-top: 10px;
+}
+.just-food .just-food-right .food-extra-btn a{
+	padding:5px 50px;
+	color: #fff;
+	background: #c9a131;
+	font-size: 16px;
+	font-family: 'Lato';
+	margin-left: 15px;
+	border: 2px solid transparent;
+
+
+}
+
+.just-food .just-food-right .food-extra-btn a:hover{
+	background: #fff;
+	border: 2px solid #202022;
+	color: #202022;
+}
+/* =============================================
+			  Start just-food Section                 
+================================================= */
+
+.footer-section{
+	width: 100%;
+	padding: 20px 0px;
+	background-color: #191919;
+}
+
+.footer-section .footer{
+	width: 100%;
+}
+.footer-section .footer .footer-left{
+	width: 50%;
+	float: left;
+}
+
+.footer-section .footer .footer-left p{
+	color: #fff;
+	font-size: 16px;
+	line-height: 25px;
+	font-family: 'Lato';
+}
+
+.social-icon{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+.social-icon i{
+	height: 35px;
+    width: 35px;
+    line-height: 35px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #111111;
+    font-size: 20px;
+	margin-right: 10px;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid transparent;
+}
+.social-icon i:hover{
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
